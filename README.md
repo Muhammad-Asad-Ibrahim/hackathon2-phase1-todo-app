@@ -1,25 +1,35 @@
 # In-Memory Python Console Todo App (Phase I)
 
-This is a console-based todo application that stores tasks in memory. It supports the basic operations of adding, viewing, updating, deleting, and marking todos as complete/incomplete.
+This is a console-based todo application built using Python. The application stores all tasks in memory and allows users to manage their todos through a command-line interface.
+
+---
 
 ## Features
 
 - Add new todo items
-- View all todo items with their completion status
+- View all todo items with completion status
 - Update existing todo descriptions
 - Delete todo items
-- Mark todos as complete or incomplete
-- All data stored in memory only (no persistence)
+- Mark todos as complete
+- Mark todos as incomplete
+- In-memory storage (no data persistence)
+
+---
 
 ## Requirements
 
 - Python 3.13 or higher
 
+---
+
 ## Installation
 
 1. Clone or download the repository
 2. Navigate to the project directory
-3. Install dependencies: `pip install -e .` (optional, for development)
+3. (Optional) Install the project in editable mode:
+   ```bash
+   pip install -e .
+
 
 ## Usage
 
@@ -43,8 +53,9 @@ Todo Application
 2. View Todos
 3. Update Todo
 4. Delete Todo
-5. Mark Todo as Complete/Incomplete
-6. Exit
+5. Mark Todo as Complete
+6. Mark Todo as Incomplete
+7. Exit
 Choose an option:
 ```
 
@@ -54,9 +65,10 @@ Choose an option:
 - **Option 2**: View all todos with their completion status
 - **Option 3**: Update an existing todo by specifying its ID and new description
 - **Option 4**: Delete a todo by specifying its ID
-- **Option 5**: Toggle the completion status of a todo by specifying its ID
-- **Option 6**: Exit the application (data will be lost)
-
+- **Option 5**: Marks the selected todo as completed 
+- **Option 6**: Marks the selected todo as incomplete
+- **Option 7**: Exit the application (data will be lost)
+  
 ## Architecture
 
 The application follows a layered architecture:
