@@ -26,10 +26,7 @@ This is a console-based todo application built using Python. The application sto
 
 1. Clone or download the repository
 2. Navigate to the project directory
-3. (Optional) Install the project in editable mode:
-   ```bash
-   pip install -e .
-
+3. Install dependencies: pip install -e . (optional, for development)
 
 ## Usage
 
